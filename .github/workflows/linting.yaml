@@ -6,4 +6,8 @@ permissions:
   contents: read
 jobs:
   linting:
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
     uses: aura-portal/.github/.github/workflows/linting.yaml@main
