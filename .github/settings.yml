@@ -36,7 +36,7 @@ rulesets:
     bypass_actors:
       - actor_id: null
         actor_type: OrganizationAdmin
-        bypass_mode: always
+        bypass_mode: pull_request
     conditions:
       ref_name:
         include:
@@ -58,7 +58,7 @@ rulesets:
     bypass_actors:
       - actor_id: null
         actor_type: OrganizationAdmin
-        bypass_mode: always
+        bypass_mode: pull_request
     conditions:
       ref_name:
         include:
