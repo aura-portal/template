@@ -18,9 +18,6 @@ repository:
 teams:
   - name: aura-portal
     permission: admin
-branches:
-  - name: main
-    protection: null
 rulesets:
   - name: Prevent destruction of the default branch
     target: branch
