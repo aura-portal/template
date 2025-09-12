@@ -37,3 +37,4 @@ rulesets:
       ref_name:
         include:
           - "~DEFAULT_BRANCH"
+        exclude: []
