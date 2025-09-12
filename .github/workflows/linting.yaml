@@ -1,7 +1,7 @@
 ---
 name: Linting
 on:
-  push: 
+  push:
     branches-ignore:
       - main
 permissions:
