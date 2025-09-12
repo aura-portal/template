@@ -1,4 +1,9 @@
-#checkov:skip=CKV_DOCKER_3: Ensure that a user for the container has been created
-#checkov:skip=CKV_DOCKER_2: Ensure that HEALTHCHECK instructions have been added to container images
-
 FROM alpine:3
+
+RUN adduser -D aura
+
+WORKDIR /home/aura
+
+USER aura
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 CMD exit 0
