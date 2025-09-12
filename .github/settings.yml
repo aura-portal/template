@@ -67,5 +67,6 @@ rulesets:
     rules:
       - type: required_status_checks
         parameters:
-          required_status_checks: []
+          required_status_checks: 
+            - linting / Linting
           strict_required_status_checks_policy: true
