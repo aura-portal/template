@@ -1,7 +1,9 @@
 ---
 name: Linting
 on:
-  push: null
+  push: 
+    branches-ignore:
+      - main
 permissions:
   contents: read
 jobs:
