@@ -36,7 +36,7 @@ rulesets:
     bypass_actors:
       - actor_id: null
         actor_type: OrganizationAdmin
-        bypass_mode: always
+        bypass_mode: pull_request
     conditions:
       ref_name:
         include:
@@ -58,7 +58,7 @@ rulesets:
     bypass_actors:
       - actor_id: null
         actor_type: OrganizationAdmin
-        bypass_mode: always
+        bypass_mode: pull_request
     conditions:
       ref_name:
         include:
@@ -67,6 +67,6 @@ rulesets:
     rules:
       - type: required_status_checks
         parameters:
-          required_status_checks: 
+          required_status_checks:
             - context: linting / Linting
           strict_required_status_checks_policy: true
