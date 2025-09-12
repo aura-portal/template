@@ -38,3 +38,6 @@ rulesets:
         include:
           - "~DEFAULT_BRANCH"
         exclude: []
+    bypass_actors:
+      - actor_id: null
+        actor_type: OrganizationAdmin
