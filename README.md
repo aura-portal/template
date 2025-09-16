@@ -6,7 +6,7 @@ What is this?
 
 ## Prerequisites
 
-* [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 ## Usage
 
